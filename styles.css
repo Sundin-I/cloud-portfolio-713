@@ -1,0 +1,25 @@
+body {
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  background-color: #dfffe2;
+  color: #000;
+  text-align: left;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+ul {
+  margin-left: 30px;
+  padding-left: 10px;
+  line-height: 1.6;
+}
+
+h3 {
+  margin-top: 25px;
+  color: #003366;
+}
