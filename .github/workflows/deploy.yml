@@ -21,10 +21,7 @@ jobs:
           deployment-group: EC2Group-713
           deployment-description: "GitHub Actions Deployment"
           region: us-east-2
-          github-token: ${{ secrets.GITHUB_TOKEN }}
           revision-location: github
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-
-
