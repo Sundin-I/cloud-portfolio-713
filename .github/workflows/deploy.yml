@@ -15,12 +15,13 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Deploy to AWS CodeDeploy
-        uses: webfactory/create-aws-codedeploy-deployment@v1
+        uses: webfactory/create-aws-codedeploy-deployment@v0.3.1
         with:
           application-name: CloudPortfolioApp-713
           deployment-group: EC2Group-713
-          deployment-config-name: CodeDeployDefault.AllAtOnce
-          region: us-east-2
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          deployment-description: "Deployed from GitHub Actions"
+          region: us-east-1
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+
