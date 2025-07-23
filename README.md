@@ -17,7 +17,7 @@ This project demonstrates a full-featured **AWS cloud portfolio** consisting of:
   *(S3 origin: [`sundin-portfoliobucket713.s3-website.us-east-2.amazonaws.com`](http://sundin-portfoliobucket713.s3-website.us-east-2.amazonaws.com))*
 ### 🔍 Preview
 
-![Static Site](IMG_S2713.PNG)
+![Static Site](IMG_S2713.png)
 
 
 ### Features:
