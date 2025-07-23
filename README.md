@@ -12,10 +12,7 @@ This project demonstrates a full-featured AWS cloud portfolio consisting of:
 
 - **Hosted on**: Amazon S3 (static site hosting)
 - **Accelerated with**: Amazon CloudFront (CDN + HTTPS)
-- **Live URL**: [sundin-portfoliobucket713.s3-website.us-east-2.amazonaws.com
-](sundin-portfoliobucket713.s3-website.us-east-2.amazonaws.com
-)
-
+- **Live URL**: [[sundin-portfoliobucket713.s3-website.us-east-2.amazonaws.com](https://d7q2iujpllljr.cloudfront.net/)]
 ### Features:
 - HTML/CSS portfolio showcasing cloud projects
 - Automatically synced via AWS CLI (`aws s3 sync`)
