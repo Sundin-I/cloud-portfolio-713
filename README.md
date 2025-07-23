@@ -41,3 +41,6 @@ This project demonstrates a full-featured **AWS cloud portfolio** consisting of:
 ### Example Request (`curl`):
 ```bash
 curl https://3ec1acm5mc.execute-api.us-east-2.amazonaws.com/default/tasks
+
+![Deploy Status](https://github.com/Sundin-I/cloud-portfolio-713/actions/workflows/deploy.yml/badge.svg)
+
