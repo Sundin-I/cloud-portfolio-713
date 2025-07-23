@@ -15,6 +15,10 @@ This project demonstrates a full-featured **AWS cloud portfolio** consisting of:
 - **Live URL**:  
   [https://d7q2iujpllljr.cloudfront.net](https://d7q2iujpllljr.cloudfront.net)  
   *(S3 origin: [`sundin-portfoliobucket713.s3-website.us-east-2.amazonaws.com`](http://sundin-portfoliobucket713.s3-website.us-east-2.amazonaws.com))*
+### 🔍 Preview
+
+![Static Site](IMG_S2713.PNG)
+
 
 ### Features:
 - HTML/CSS portfolio showcasing cloud projects  
