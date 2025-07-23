@@ -6,6 +6,8 @@ This project demonstrates a full-featured **AWS cloud portfolio** consisting of:
 - ✅ **Serverless To-Do API** using AWS Lambda + API Gateway + DynamoDB  
 - ✅ **CI/CD Deployment to EC2** using GitHub Actions + AWS CodeDeploy
 
+![Deploy Status](https://github.com/Sundin-I/cloud-portfolio-713/actions/workflows/deploy.yml/badge.svg)
+
 ---
 
 ## 🌐 1. Static Website (Frontend)
@@ -41,6 +43,4 @@ This project demonstrates a full-featured **AWS cloud portfolio** consisting of:
 ### Example Request (`curl`):
 ```bash
 curl https://3ec1acm5mc.execute-api.us-east-2.amazonaws.com/default/tasks
-
-![Deploy Status](https://github.com/Sundin-I/cloud-portfolio-713/actions/workflows/deploy.yml/badge.svg)
 
