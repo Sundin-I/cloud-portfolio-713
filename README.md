@@ -40,7 +40,22 @@ This project demonstrates a full-featured **AWS cloud portfolio** consisting of:
 - `PUT /tasks/{id}` → Update a task  
 - `DELETE /tasks/{id}` → Delete a task
 
-### Example Request (`curl`):
-```bash
-curl https://3ec1acm5mc.execute-api.us-east-2.amazonaws.com/default/tasks
+## 🚀 3. CI/CD Pipeline (GitHub Actions → AWS CodeDeploy → EC2)
+This project includes a fully automated CI/CD pipeline that deploys updated code from GitHub to an EC2 instance using AWS CodeDeploy.
 
+🛠️ Stack:
+- **Source Control**: GitHub
+- **CI/CD Engine**: GitHub Actions
+- **Deployment Service**: AWS CodeDeploy
+- **Target Environment**: Amazon EC2 (Ubuntu)
+
+🔁 Deployment Flow
+ - Developer pushes code to main branch
+ - GitHub Actions triggers .github/workflows/deploy.yml
+ - AWS CodeDeploy receives the deployment artifact
+ - CodeDeploy deploys it to the EC2 instance using appspec.yml
+
+📁 Key Files
+ - .github/workflows/deploy.yml – CI/CD pipeline definition
+ - appspec.yml – Instructions for CodeDeploy on EC2
+ - scripts/ – Shell scripts run during deployment lifecycle
