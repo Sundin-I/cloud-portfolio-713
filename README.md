@@ -25,7 +25,6 @@ This project demonstrates a full-featured **AWS cloud portfolio** consisting of:
 ### Features:
 - HTML/CSS portfolio showcasing cloud projects  
 - Automatically synced via AWS CLI (`aws s3 sync`)
-# Licensed under MIT – contributions welcome on GitHub
 
 ---
 
@@ -40,7 +39,6 @@ This project demonstrates a full-featured **AWS cloud portfolio** consisting of:
 - `POST /tasks` → Create a new task  
 - `PUT /tasks/{id}` → Update a task  
 - `DELETE /tasks/{id}` → Delete a task
-# Licensed under MIT – contributions welcome on GitHub
 
 ## 🚀 3. CI/CD Pipeline (GitHub Actions → AWS CodeDeploy → EC2)
 
@@ -52,7 +50,6 @@ This project includes a fully automated CI/CD pipeline that deploys updated code
 - **CI/CD Engine**: GitHub Actions  
 - **Deployment Service**: AWS CodeDeploy  
 - **Target Environment**: Amazon EC2 (Ubuntu)
-# Licensed under MIT – contributions welcome on GitHub
 
 ---
 
@@ -62,7 +59,6 @@ This project includes a fully automated CI/CD pipeline that deploys updated code
 2. GitHub Actions triggers `.github/workflows/deploy.yml`  
 3. AWS CodeDeploy receives the deployment artifact  
 4. CodeDeploy deploys it to the EC2 instance using `appspec.yml`
-# Licensed under MIT – contributions welcome on GitHub
 
 ---
 
@@ -72,3 +68,4 @@ This project includes a fully automated CI/CD pipeline that deploys updated code
 - `appspec.yml` – Instructions for CodeDeploy on EC2  
 - `scripts/` – Shell scripts run during deployment lifecycle
 
+### All projects are Licensed under MIT – contributions welcome on GitHub
