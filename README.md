@@ -41,21 +41,30 @@ This project demonstrates a full-featured **AWS cloud portfolio** consisting of:
 - `DELETE /tasks/{id}` → Delete a task
 
 ## 🚀 3. CI/CD Pipeline (GitHub Actions → AWS CodeDeploy → EC2)
+
 This project includes a fully automated CI/CD pipeline that deploys updated code from GitHub to an EC2 instance using AWS CodeDeploy.
 
-🛠️ Stack:
-- **Source Control**: GitHub
-- **CI/CD Engine**: GitHub Actions
-- **Deployment Service**: AWS CodeDeploy
+### 🛠️ Stack:
+
+- **Source Control**: GitHub  
+- **CI/CD Engine**: GitHub Actions  
+- **Deployment Service**: AWS CodeDeploy  
 - **Target Environment**: Amazon EC2 (Ubuntu)
 
-🔁 Deployment Flow
- - Developer pushes code to main branch
- - GitHub Actions triggers .github/workflows/deploy.yml
- - AWS CodeDeploy receives the deployment artifact
- - CodeDeploy deploys it to the EC2 instance using appspec.yml
+---
 
-📁 Key Files
- - .github/workflows/deploy.yml – CI/CD pipeline definition
- - appspec.yml – Instructions for CodeDeploy on EC2
- - scripts/ – Shell scripts run during deployment lifecycle
+### 🔁 Deployment Flow
+
+1. Developer pushes code to `main` branch  
+2. GitHub Actions triggers `.github/workflows/deploy.yml`  
+3. AWS CodeDeploy receives the deployment artifact  
+4. CodeDeploy deploys it to the EC2 instance using `appspec.yml`
+
+---
+
+### 📁 Key Files
+
+- `.github/workflows/deploy.yml` – CI/CD pipeline definition  
+- `appspec.yml` – Instructions for CodeDeploy on EC2  
+- `scripts/` – Shell scripts run during deployment lifecycle
+
